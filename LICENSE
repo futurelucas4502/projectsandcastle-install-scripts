@@ -1,3 +1,5 @@
+The modifications of this project are very VERY small and can be seen in the readme however for legalities sake I must use the GNU 2.0 license as this is the license used by Project Sandcastle.
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 
@@ -337,3 +339,11 @@ proprietary programs.  If your program is a subroutine library, you may
 consider it more useful to permit linking proprietary applications with the
 library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.
+
+
+Other licenses:
+
+
+The license for pongoOS can be found [here](https://github.com/checkra1n/pongoOS/blob/master/LICENSE.md)
+
+The license for Project Sandcastle can be found [here](https://github.com/corellium/projectsandcastle/blob/master/LICENSE)
