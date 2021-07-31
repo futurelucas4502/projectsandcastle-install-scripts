@@ -7,7 +7,7 @@ If you would prefer to use the original copies the things changed are as follows
 * Removed `load-linux.mac`
 * Added load_linux.py from [here](https://github.com/checkra1n/pongoOS/blob/master/scripts/load_linux.py)
 * Edited isetup removing all references to binpack e.g. remove the shebang and change things like `/binpack/usr/local/bin/wget` to just `wget`.
-* Edited `start_mac.sh` changing the 3rd line from the bottom from `./load-linux.mac Android.lzma dtbpack` to `./load_linux.py -c Android.lzma -d dtbpack`.
+* Edited `start_mac.sh` changing the 3rd line from the bottom from `./load-linux.mac Android.lzma dtbpack` to `./load_linux.py -k Android.lzma -d dtbpack`.
 * Then just follow the instructions below
 
 
@@ -31,7 +31,7 @@ Connect your iPhone to your computer by USB.
 Use checkra1n to jailbreak your device and boot into iOS.
 Copy the isetup file to `/tmp/setup.sh` on the iPhone via scp or other means.
 Run `chmod 755 /tmp/setup.sh && /tmp/setup.sh` on the iPhone via ssh or NewTerm 2
-Once setup is complete run `./load_linux.py -c Android.lzma -d dtbpack` in a terminal on the computer.
+Once setup is complete run `./load_linux.py -k Android.lzma -d dtbpack` in a terminal on the computer.
 
 
 ## Removing it (*THIS DOES NOT WORK*):
