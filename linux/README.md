@@ -14,7 +14,7 @@ Open a terminal window and run `/Applications/checkra1n.app/Contents/MacOS/check
 
 ## Linux:
 Download the latest checkra1n from [here](http://checkra.in)
-Open a terminal window and run `checkra1n -cp` then run `./load_linux.py -c Linux.lzma -d dtbpack`
+Open a terminal window and run `checkra1n -cp` then run `./load_linux.py -k Linux.lzma -d dtbpack`
 
 
 The Linux build comes with a baked in RAMDisk.
