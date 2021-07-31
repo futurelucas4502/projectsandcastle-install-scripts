@@ -38,6 +38,6 @@ done
 if [ ${BOOT} -eq 1 ]; then
 	sleep 5;
 	echo "Starting Android"
-	./load_linux.py -c Android.lzma -d dtbpack
+	./load_linux.py -k Android.lzma -d dtbpack
 fi
 killall -9 checkra1n
